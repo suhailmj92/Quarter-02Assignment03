@@ -8,7 +8,7 @@ export default function Header() {
             <ul className="header-buttons">
 
                <Link href={"/"}>   
-               <li>Main Page</li>
+               <li>Portfolio</li>
                </Link>
                
                 <Link href={"/about-us"}>    
@@ -16,20 +16,7 @@ export default function Header() {
                 </Link>
 
                 <Link href={"/contact-us"}>
-                <li>Contact Us</li>
-                </Link>
-                
-                <Link href={"/jobs"}>
-                <li>Jobs</li>
-                </Link>
-
-
-                <Link href={"/sign-in"}>
-                <li>Sign In</li>
-                </Link>
-                
-                <Link href={"/responsive"}>
-                <li>Responsive</li>
+                <li>Contact Me</li>
                 </Link>
 
             </ul>
