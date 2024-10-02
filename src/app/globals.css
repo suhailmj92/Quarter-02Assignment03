@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Header{
+  background-color: rgb(84, 91, 171);
+  color: rgb(206, 197, 197);
+  height: 75px;
+
+  
+
+}
+.header-buttons{
+  margin-left: 100px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  gap: 100px;
+  border: 25px;
+  font-size: 40px;
+}
+
+h1 {
+  color: blue;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
